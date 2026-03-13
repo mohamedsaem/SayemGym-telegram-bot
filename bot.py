@@ -395,7 +395,7 @@ async def send_or_edit(update: Update, text: str, reply_markup: InlineKeyboardMa
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     context.user_data["state"] = STATE_IDLE
     text = (
-        "أهلاً بيك في <b>Gym Program Bot</b>\n"
+        "أهلاً بيك في <b>Sayem Gym</b>\n"
         "اختار من القايمة اللي تحت، وأنا أمشي معاك خطوة بخطوة من غير أوامر معقدة."
     )
     await send_or_edit(update, text, main_menu_kb())
